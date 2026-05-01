@@ -88,7 +88,7 @@ spotify-data-analysis/
 
 ##  SQL Analysis
 
-### 📖 Part 1 — Sub_queries Storytelling (10 Questions)
+###  Part 1 — Sub_queries Storytelling (10 Questions)
 
 A connected investigation where each query builds on the previous one using subqueries.
 
@@ -150,7 +150,7 @@ FROM spotify_data_clean;
 
 ---
 
-## 📊 Python Visualizations
+##  Python Visualizations
 
 All charts use the **official Spotify color palette** for consistency:
 
