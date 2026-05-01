@@ -55,8 +55,9 @@ spotify-data-analysis/
 ├── README.md                         # Project documentation
 │
 ├── sql/
-│   ├── subquery_analysis.sql         # 10 storytelling subquery questions
-│   └── window_functions.sql          # 10 window function questions
+│   ├── aggregate_functions.sql         # 10 storytelling aggregate questions
+│   └── subquery_analysis.sql           # 10 storytelling subquery questions
+|   |__ window_functions.sql            # 10 window function questions
 │
 ├── notebooks/
 │   └── spotify_analysis.ipynb        # Full analysis notebook (run on Google Colab)
