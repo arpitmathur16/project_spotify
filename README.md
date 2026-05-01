@@ -1,10 +1,10 @@
-# 🎵 Spotify Data Analysis Project
+#  Spotify Data Analysis Project
 
 > A end-to-end data analysis project exploring **8,582 Spotify tracks** across **2,548 artists** and **4,869 albums** — uncovering patterns in popularity, duration, explicitness, and artist dominance using **SQL**, **Python**, and **Excel**.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project simulates a real-world music analytics workflow — from raw data cleaning to advanced SQL querying, window functions, and professional Python visualizations. The dataset was explored through a **storytelling approach**, where each analysis question connects to the next like chapters in an investigation.
 
@@ -72,7 +72,7 @@ spotify-data-analysis/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Usage |
 |------|-------|
@@ -86,9 +86,9 @@ spotify-data-analysis/
 
 ---
 
-## 🔍 SQL Analysis
+##  SQL Analysis
 
-### 📖 Part 1 — Subquery Storytelling (10 Questions)
+### 📖 Part 1 — Sub_queries Storytelling (10 Questions)
 
 A connected investigation where each query builds on the previous one using subqueries.
 
@@ -111,8 +111,8 @@ SELECT track_name, track_popularity,
        (SELECT ROUND(AVG(track_popularity), 2) FROM spotify_data_clean) AS platform_avg,
        CASE
            WHEN track_popularity > (SELECT AVG(track_popularity) FROM spotify_data_clean)
-           THEN 'Above Average ✅'
-           ELSE 'Below Average ❌'
+           THEN 'Above Average '
+           ELSE 'Below Average '
        END AS status
 FROM spotify_data_clean
 WHERE album_name = 'reputation Stadium Tour Surprise Song Playlist'
@@ -122,7 +122,7 @@ LIMIT 1;
 
 ---
 
-### 📖 Part 2 — Window Functions (10 Questions)
+###  Part 2 — Window Functions (10 Questions)
 
 Advanced ranking, comparison, and movement analysis using window functions.
 
@@ -181,18 +181,18 @@ SPOTIFY_BLUE   = '#1EAAFF'
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
-- 🏆 **Taylor Swift** dominates with **145M followers** and **324 tracks** — the most represented artist.
-- 🎵 **Explicit tracks** score slightly **higher popularity** on average despite being only 25% of the catalog.
-- ⏱️ **Song duration has minimal impact** on popularity (r = 0.11) — listeners don't reward longer songs.
-- 📈 **Artist popularity is the strongest predictor** of track success (r = 0.47).
-- 📅 **Music production peaked in 2025** with 765 tracks — the streaming era drives continuous growth.
-- 💎 **Underrated artists** exist — high follower counts but consistently low track popularity scores.
+-  **Taylor Swift** dominates with **145M followers** and **324 tracks** — the most represented artist.
+-  **Explicit tracks** score slightly **higher popularity** on average despite being only 25% of the catalog.
+-  **Song duration has minimal impact** on popularity (r = 0.11) — listeners don't reward longer songs.
+-  **Artist popularity is the strongest predictor** of track success (r = 0.47).
+-  **Music production peaked in 2025** with 765 tracks — the streaming era drives continuous growth.
+-  **Underrated artists** exist — high follower counts but consistently low track popularity scores.
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 ```bash
@@ -215,7 +215,7 @@ Import `spotify_data_clean.csv` into MySQL / PostgreSQL and run queries from the
 
 ---
 
-## 📈 Sample Output
+##  Sample Output
 
 ```
 Total Tracks     : 8,582
@@ -230,9 +230,9 @@ Peak Year        : 2025 (765 tracks)
 
 ---
 
-## 👤 Author
+##  Author
 
-**Arpit**
+**Arpit Mathur**
 BCA Graduate | Data Analytics | Python · SQL · Power BI · Excel
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yourprofile)
@@ -240,7 +240,7 @@ BCA Graduate | Data Analytics | Python · SQL · Power BI · Excel
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
