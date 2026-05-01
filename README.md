@@ -287,7 +287,7 @@ Arpit Mathur
 BCA Graduate — Specialization in Artificial Intelligence
 Skills: Python, SQL, Excel, Power BI, Data Analytics
 
-LinkedIn: https://www.linkedin.com/in/arpit-mathur16/
+LinkedIn: https://www.linkedin.com/in/arpit-mathur16
 
 ---
 
@@ -298,4 +298,4 @@ Feel free to use, modify, and distribute with attribution.
 
 ---
 
-"Without data, you are just another person with an opinion." — W. Edwards Deming
+"Without data, you are just another person with an opinion." 
